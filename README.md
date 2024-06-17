@@ -22,3 +22,28 @@ Você pode instalar estas bibliotecas usando o pip:
 ```bash
 pip install smtplib email ssl
 ```
+
+## Configurações
+
+<ol>
+  <li>Clone este repositório:</li>
+  
+  ```bash
+    git clone https://github.com/seu-usuario/envio-de-email-automatico-com-python.git
+  ```
+
+  <li>Navegue até o diretório do projeto:</li>
+
+  ```bash
+    cd envio-de-email-automatico-com-python
+  ```
+
+  <li>Crie o arquivo config.py e configure as informações de e-mail:</li>
+
+  ```bash
+    EMAIL_ADDRESS = 'seu-email@gmail.com'
+    EMAIL_PASSWORD = 'sua-senha'
+    SMTP_SERVER = 'smtp.gmail.com'
+    SMTP_PORT = 465
+  ```
+</ol>
